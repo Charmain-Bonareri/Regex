@@ -18,6 +18,10 @@ let text1 = "Is this all there is?";
 let result1 = /is/gi.exec(text);
 
 
+//Adding '/' around regex
+var regex = /\s/g;
+//or using RegExp
+var regex = new RegExp("\s", "g");
 
 
 $(document).ready(function() {
