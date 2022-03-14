@@ -1,4 +1,4 @@
-# Delani-Studio
+# Regular-Experssions(Regex)
 
 This is website that allows users to enter input in a form that is limited by Regex.
 
