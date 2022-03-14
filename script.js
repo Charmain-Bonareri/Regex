@@ -2,12 +2,16 @@ let text = "Keyword myFunction";
 let pattern = /myFunction/i;
 let result = text.match(pattern); //The match() method returns null if no match is found. 
 
-// document.getElementById("demo").innerHTML = result;
+
+document.getElementById("demo").innerHTML = result;
 
 
 let pattern2 = /nameInput/i;
 let pattern3 = /is/g;
 let pattern4 = /is/gi;
+let pattern5 = /name/gi
+let perfectNumber = /d{10}/
+let email= /[student@moringa.com]/;
 
 //shift f3 you can replace a pattern.
 
@@ -44,3 +48,4 @@ $(document).ready(function() {
         event.preventDefault();
     });
  });
+
